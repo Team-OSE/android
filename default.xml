@@ -574,7 +574,7 @@
   </project>
   <project path="frameworks/base" name="frameworks_base" remote="ose" revision="ose" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="ose" revision="ose" />
-  <project path="system/core" name="android_system_core" groups="pdk" remote="ose" revision="ose" />
+  <project path="system/core" name="system_core" groups="pdk" remote="ose" revision="ose" />
   <project path="vendor/ose" name="vendor_ose" remote="ose" revision="ose" />
 
   <!-- UberUtils -->
