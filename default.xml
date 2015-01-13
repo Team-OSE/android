@@ -441,7 +441,6 @@
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" groups="pdk" remote="cm" />
   <project path="frameworks/opt/photoviewer" name="android_frameworks_opt_photoviewer" remote="cm" />
   <project path="frameworks/opt/setupwizard" name="android_frameworks_opt_setupwizard" groups="pdk-cw-fs" remote="cm" />
-  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" groups="pdk" remote="cm" />
   <project path="frameworks/opt/timezonepicker" name="android_frameworks_opt_timezonepicker" remote="cm" />
   <project path="frameworks/opt/vcard" name="android_frameworks_opt_vcard" remote="cm" />
   <project path="frameworks/rs" name="android_frameworks_rs" groups="pdk" remote="cm" />
@@ -573,6 +572,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="frameworks/base" name="frameworks_base" remote="ose" revision="ose" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="ose" revision="ose" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="ose" revision="ose" />
   <project path="system/core" name="system_core" groups="pdk" remote="ose" revision="ose" />
   <project path="vendor/ose" name="vendor_ose" remote="ose" revision="ose" />
