@@ -575,7 +575,9 @@
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="ose" revision="ose" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="ose" revision="ose" />
   <project path="system/core" name="system_core" groups="pdk" remote="ose" revision="ose" />
-  <project path="vendor/ose" name="vendor_ose" remote="ose" revision="ose" />
+  <project path="vendor/ose" name="vendor_ose" remote="ose" revision="ose" >
+    <copyfile src="tools/build-ose.sh" dest="build-ose.sh" />
+  </project>
 
   <!-- UberUtils -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="UBERUTILS/arm-linux-androideabi-4.8" remote="github" revision="lp" />
