@@ -8,6 +8,9 @@
   <remote  name="cm"
            fetch="git://github.com/CyanogenMod/" />
 
+  <remote  name="cyngn"
+           fetch="git://github.com/cyngn/" />
+
   <remote  name="github"
            fetch="git://github.com/" />
 
@@ -548,6 +551,9 @@
   <project path="system/qcom" name="android_system_qcom" groups="qcom" remote="cm" />
   <project path="system/security" name="android_system_security" groups="pdk" remote="cm" />
   <project path="system/vold" name="android_system_vold" groups="pdk" remote="cm" />
+
+  <!-- Cyngn -->
+  <project path="vendor/cyngn" name="android_vendor_cyngn" remote="cyngn" />
 
   <!-- Team-OSE -->
   <project path="android" name="android" remote="ose" revision="ose" />
