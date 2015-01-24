@@ -556,14 +556,14 @@
   <project path="vendor/cyngn" name="android_vendor_cyngn" remote="cyngn" />
 
   <!-- Team-OSE -->
-  <project path="android" name="android" remote="ose" revision="ose" />
-  <project path="build" name="build" groups="pdk,tradefed" remote="ose" revision="ose" >
+  <project path="android" name="android" remote="ose" revision="test" />
+  <project path="build" name="build" groups="pdk,tradefed" remote="ose" revision="test" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="frameworks/base" name="frameworks_base" remote="ose" revision="ose" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="ose" revision="ose" />
-  <project path="system/core" name="system_core" groups="pdk" remote="ose" revision="ose" />
-  <project path="vendor/ose" name="vendor_ose" remote="ose" revision="ose" >
+  <project path="frameworks/base" name="frameworks_base" remote="ose" revision="test" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="ose" revision="test" />
+  <project path="system/core" name="system_core" groups="pdk" remote="ose" revision="test" />
+  <project path="vendor/ose" name="vendor_ose" remote="ose" revision="test" >
     <copyfile src="tools/build-ose.sh" dest="build-ose.sh" />
   </project>
 
