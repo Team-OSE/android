@@ -389,6 +389,7 @@
   <project path="external/nist-sip" name="android_external_nist-sip" groups="pdk-cw-fs" remote="cm" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="cm" />
   <project path="external/okhttp" name="android_external_okhttp" groups="pdk-cw-fw" remote="cm" />
+  <project path="external/openssh" name="android_external_openssh" remote="cm" />
   <project path="external/openssl" name="android_external_openssl" remote="cm" />
   <project path="external/pciutils" name="android_external_pciutils" remote="cm" />
   <project path="external/pcre" name="android_external_pcre" groups="pdk-cw-fs" remote="cm" />
